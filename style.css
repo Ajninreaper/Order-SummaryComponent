@@ -13,15 +13,7 @@ body{
 }
 
 /* Case for card */
-.display-case{
-    display: flex;
-    align-items:center; 
-    justify-content:center;
-    height:100%;
-    width: 100%;
-    border: 5px solid blue;
-    margin-top:20%;
-}
+
 /* Payment-Card --Container-main */
 
  .container-main{
@@ -36,21 +28,13 @@ body{
 
  }
  /* hero image */
- .card-background{
-    height: 25vh;
+ header{
+    height: 50vh;
      width: 100%; 
      background:url(./images/illustration-hero.svg) no-repeat center/cover;
      object-fit: cover;
      
- }
-
- .card-background img{
-     
-     border-radius: 30px;
-   
-   
- }
- 
+ } 
  /* Content Style */
 
 .content{
